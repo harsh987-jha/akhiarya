@@ -1000,7 +1000,23 @@ left: 4%;
 	z-index: 0;
     pointer-events: none;
 }
-
+.hindi-text{
+    font-family: 'Tiro Devanagari Hindi', serif;
+}
+.ceremony-section {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    align-items: center;
+}
+.wedding-card{
+    background: linear-gradient(
+        135deg,
+        #fff8f0,
+        #ffe9d2
+    );
+}
 .family-card *{
     position:relative;
     z-index:1;
